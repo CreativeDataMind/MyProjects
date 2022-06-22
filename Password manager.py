@@ -1,4 +1,5 @@
 from cryptography.fernet import Fernet
+import numpy
 
 def write_key():
     key = Fernet.generate_key()
